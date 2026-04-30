@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "What AI Can't Reconstruct: A Comparative Analysis of Pop Songs and Their AI-Generated Reconstructions"
+authors:
+  - family-names: Zhang
+    given-names: Yichong
+year: 2026
+version: 0.1.0
+date-released: 2026-04-30
+type: dataset
+repository-code: "https://github.com/ET823828/AI-music-generation"
+abstract: "Support repository for a Music 159r final paper comparing AI-generated reconstructions of Olivia Rodrigo's drivers license with a Taylor Swift Love Story control using popular-music analysis tools."

@@ -1,0 +1,71 @@
+% ─────────────────────────────────────────────────────────────
+% Custom LaTeX preamble for Music 159r final project
+% Used by pandoc via --include-in-header=latex_header.tex
+% ─────────────────────────────────────────────────────────────
+
+% Unicode music & arrow symbols (Times New Roman lacks these glyphs)
+\usepackage{newunicodechar}
+\newunicodechar{♭}{\ensuremath{\flat}}
+\newunicodechar{♯}{\ensuremath{\sharp}}
+\newunicodechar{♮}{\ensuremath{\natural}}
+\newunicodechar{→}{\ensuremath{\rightarrow}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{−}{\textendash}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{∞}{\ensuremath{\infty}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{Δ}{\ensuremath{\Delta}}
+\newunicodechar{Ω}{\ensuremath{\Omega}}
+\newunicodechar{·}{\textperiodcentered}
+
+% Section heading typography
+\usepackage{titlesec}
+\titleformat{\section}
+  {\Large\bfseries\sffamily\raggedright}
+  {\thesection.}{0.6em}{}
+\titleformat{\subsection}
+  {\large\bfseries\itshape\raggedright}
+  {\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}
+  {\normalsize\itshape\raggedright}
+  {}{0pt}{}
+\titlespacing\section{0pt}{18pt plus 4pt minus 2pt}{8pt plus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt}
+
+% Paragraph style: indented first line, no extra space between paragraphs
+% (standard humanities / academic format)
+\usepackage{indentfirst}
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0pt plus 1pt}
+
+% Figure caption typography
+\usepackage{caption}
+\captionsetup{
+  font=small,
+  labelfont={small,bf,sf},
+  textfont=it,
+  format=plain,
+  justification=justified,
+  singlelinecheck=false,
+  belowskip=2pt,
+  aboveskip=4pt
+}
+
+% Encourage figure floats to stay near reference, allow page-fill
+\usepackage{float}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\topfraction}{0.92}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\floatpagefraction}{0.7}
+
+% Drop-cap-free section starts
+\usepackage{microtype}
+
+% Slightly tighter list spacing
+\usepackage{enumitem}
+\setlist{itemsep=2pt, parsep=0pt, topsep=4pt}
+
+% Section numbering: use default arabic (1, 2, 3, ...) so it matches
+% inline cross-references written as §3, §4, etc.
+% (no override needed — LaTeX defaults are correct)

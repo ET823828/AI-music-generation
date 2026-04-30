@@ -1,0 +1,32 @@
+# macOS / editor artifacts
+.DS_Store
+._*
+*.swp
+*.swo
+.claude/
+.codex/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local-only and non-redistributable material
+private/
+*.wav
+*.mp3
+lyrics_*.txt
+lyrics_for_ai_prompt*.txt
+Final Project - Instructions and Grading Rubric.pdf
+
+# Generated intermediate files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
