@@ -210,11 +210,11 @@ Zagorski-Thomas, Simon. 2014. *The Musicology of Record Production*. Cambridge: 
 
 # Appendix B — Lyrics Paraphrase Mapping
 
-The paraphrase preserves the section count, per-section line counts, narrative arc, and imagery cluster while replacing specific lyric phrases. For copyright reasons, the public support repository excludes complete commercial lyrics and line-by-line lyric mappings; it includes only the style descriptions, section-level methodology, metrics, scripts, and figures needed to evaluate the paper's analytical claims. A private working copy retains the full lyric mappings for course audit.
+The paraphrase preserves the section count, per-section line counts, narrative arc, and imagery cluster while replacing specific lyric phrases. For copyright reasons, the public support repository excludes complete commercial lyrics, near-verbatim lyric prompts, and line-by-line lyric mappings; it includes only the style descriptions, section-level methodology, generated audio artifacts, metrics, scripts, and figures needed to evaluate the paper's analytical claims. A private working copy retains the full lyric mappings for course audit.
 
 # Appendix C — Generated Audio and Selection
 
-Four AI generations were retained as final outputs after listening to ≥3 candidates per (model, variant) condition and selecting on the structural-fit criteria specified in §3.2. The generated audio is not distributed in the public repository by default; to rerun the signal analysis, place local copies under `private/audio/` with these filenames:
+Four AI generations were retained as final outputs after listening to ≥3 candidates per (model, variant) condition and selecting on the structural-fit criteria specified in §3.2. The generated audio analyzed here is included in the support repository under `private/audio/` for auditability, with large files tracked through Git LFS:
 
 - `driver_license_with_no_emotion.wav` — Suno v5.5, Variant A, 4:28
 - `driver_license_with_detailed_emotion.wav` — Suno v5.5, Variant B, 3:43

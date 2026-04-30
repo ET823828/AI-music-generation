@@ -4,5 +4,6 @@ Unless otherwise noted, the paper text, original figures, prompt style descripti
 
 https://creativecommons.org/licenses/by/4.0/
 
-This license does not apply to third-party copyrighted works referenced by the project, including commercial song recordings, commercial lyrics, platform-generated audio files, course materials, or any files excluded under `private/`.
+This license does not apply to third-party copyrighted works referenced by the project, including commercial song recordings, commercial lyrics, platform-generated audio files, course materials, or local files excluded from the repository.
 
+Generated audio files under `private/audio/` are included only as research artifacts supporting the paper's analysis. No reuse license is granted for those audio files by this repository.

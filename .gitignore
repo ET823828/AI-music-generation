@@ -16,9 +16,14 @@ __pycache__/
 venv/
 
 # Local-only and non-redistributable material
-private/
 *.wav
 *.mp3
+private/*
+!private/audio/
+private/audio/*
+!private/audio/*.wav
+!private/audio/*.mp3
+!private/audio/README.md
 lyrics_*.txt
 lyrics_for_ai_prompt*.txt
 Final Project - Instructions and Grading Rubric.pdf
